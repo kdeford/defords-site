@@ -1,1 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bulk Fuel & DEF in NE Florida | DeFord’s Fuel & Oil</title>
+  <meta name="description" content="Family-run since 1937. Bulk fuel, DEF, oils & waste-oil pickup across St. Johns, Putnam, Clay, Flagler, South Duval & North Volusia. Call 904-829-2251." />
+  <style>
+    :root{--bg:#0b1220;--fg:#121826;--ink:#0f172a;--muted:#5b6b88;--brand:#1e5eff;--brand2:#00b894;--paper:#ffffff}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#0b1220}
+    a{color:var(--brand);text-decoration:none}
+    .container{max-width:1150px;margin:0 auto;padding:0 20px}
+    header{position:sticky;top:0;z-index:30;background:#fff;box-shadow:0 1px 8px rgba(16,24,40,.06)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:18px}
+    .brand-badge{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--brand),#6ea8ff);display:grid;place-items:center;color:#fff;font-weight:900}
+    .nav a{margin-left:18px;font-weight:600;color:#0b1220}
+    .btn{display:inline-flex;align-items:center;gap:10px;border-radius:12px;padding:12px 16px;font-weight:700;border:1px solid #dbe3f3;background:#fff}
+    .btn.primary{background:var(--brand);color:#fff;border-color:var(--brand)}
+    .btn.ghost{background:#fff;color:var(--brand);border-color:rgba(30,94,255,.25)}
+    .hero{background:linear-gradient(180deg,#f8fbff, #ffffff);padding:56px 0}
+    .hero h1{font-size:42px;line-height:1.1;margin:0 0 12px}
+    .hero p{font-size:18px;color:#364155;max-width:760px}
+    .hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+    .badge-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+    .badge{background:#eef4ff;border:1px solid #d8e4ff;color:#1a3a8a;padding:6px 10px;border-radius:999px;font-weight:700;font-size:12px}
+    .grid{display:grid;gap:20px}
+    .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    @media(max-width:960px){.grid.cols-3{grid-template-columns:1fr 1fr}}
+    @media(max-width:680px){.grid.cols-3,.grid.cols-2{grid-template-columns:1fr}.hero h1{font-size:32px}}
+    .card{border:1px solid #e6edf8;border-radius:16px;background:#fff;padding:18px;box-shadow:0 6px 20px rgba(16,24,40,.06)}
+    .card h3{margin:8px 0 8px;font-size:20px}
+    .card p{color:#435170}
+    .section{padding:42px 0}
+    .section h2{font-size:28px;margin:0 0 14px}
+    .list{margin:0;padding:0 0 0 18px;color:#37465f}
+    .kpis{display:grid;gap:12px;grid-template-columns:repeat(4,minmax(0,1fr))}
+    @media(max-width:880px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    .kpi{background:#0b1220;color:#fff;border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:6px}
+    .kpi .label{opacity:.7;font-size:12px}
+    .kpi .value{font-size:24px;font-weight:900}
+    footer{background:#0b1220;color:#cbd5e1;padding:36px 0;margin-top:32px}
+    .footer-grid{display:grid;gap:22px;grid-template-columns:2fr 1fr 1fr}
+    @media(max-width:820px){.footer-grid{grid-template-columns:1fr}}
+    .small{font-size:13px;color:#5b6b88}
+    .faq-item{border:1px solid #e4ebf7;border-radius:12px;background:#fff;padding:14px}
+    .faq-q{cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:700}
+    .faq-a{display:none;color:#435170;margin-top:8px}
+    .county-tag{font-weight:700;color:#0b1220}
+    .pill{display:inline-block;padding:4px 8px;border:1px solid #e2e8f0;border-radius:999px;font-size:12px;color:#334155;background:#f8fafc}
+    .contact-block{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:8px}
+    .contact-block .pill{font-weight:700}
+    .notice{background:#f0fdf4;border:1px solid #bbf7d0;color:#065f46;padding:10px 12px;border-radius:12px}
+  .tabs{margin-top:10px}.tab-list{display:flex;flex-wrap:wrap;gap:8px;border-bottom:1px solid #e2e8f0;margin-bottom:12px}.tab-btn{padding:10px 14px;border:1px solid #e2e8f0;border-bottom:none;border-radius:12px 12px 0 0;background:#fff;font-weight:700;cursor:pointer}.tab-btn.active{background:#0b1220;color:#fff;border-color:#0b1220}.tab-panel{display:none;border:1px solid #e2e8f0;border-radius:0 12px 12px 12px;background:#fff;padding:16px}.tab-panel.active{display:block}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><div class="brand-badge">DF</div>DeFord’s Fuel & Oil</div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#counties">Service Area</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn primary">904-829-2251</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Bulk Fuel, DEF, Oils & Waste‑Oil Pickup—Northeast Florida</h1>
+        <p>Family‑run since 1937. On‑time delivery for farms, logging and construction across <strong>St. Johns</strong>, <strong>Putnam</strong>, <strong>Clay</strong>, <strong>Flagler</strong>, <strong>South Duval</strong> and <strong>North Volusia</strong>.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn primary">Request a Quote</a>
+          <a href="#services" class="btn ghost">View Services</a>
+          <a href="mailto:kdeford@outlook.com" class="btn">kdeford@outlook.com</a>
+        </div>
+        <div class="badge-row">
+          <span class="badge">On‑Road Diesel</span>
+          <span class="badge">Off‑Road Diesel</span>
+          <span class="badge">Gasoline</span>
+          <span class="badge">Bulk DEF & Totes</span>
+          <span class="badge">Oils & Greases</span>
+          <span class="badge">Waste‑Oil Collection</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid cols-3">
+          <div class="card">
+            <h3>Bulk Fuel Delivery</h3>
+            <p>Prevent run‑outs with dependable delivery of on‑road/off‑road diesel and gasoline to yards and jobsites. Safe hose routing and clean handling.</p>
+            <ul class="list">
+              <li>Same‑/next‑day windows available</li>
+              <li>Day tanks, equipment & portable skids</li>
+              <li>NE Florida coverage</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>DEF Fluid (Bulk & Totes)</h3>
+            <p>High‑purity DEF delivered cleanly via closed systems to protect SCR components. Bulk, drums and totes supported.</p>
+            <ul class="list">
+              <li>Dedicated lines & fittings</li>
+              <li>On‑route or will‑call</li>
+              <li>275–330 gal totes</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Oils & Greases</h3>
+            <p>Engine, hydraulic and gear oils plus specialty greases in quarts, pails, drums, 250‑gal totes and bulk.</p>
+            <ul class="list">
+              <li>Packaged to bulk delivery</li>
+              <li>Storage & handling guidance</li>
+              <li>Scheduled routes</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Waste‑Oil Collection</h3>
+            <p>Clean, compliant used‑oil pickup for shops, yards and jobsites. Predictable intervals with documentation for your records.</p>
+            <ul class="list">
+              <li>Scheduled or on‑call</li>
+              <li>Safe access & labeling</li>
+              <li>Manifest support</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Who We Serve</h3>
+            <p>Farms, nurseries, logging, construction, fleets. Local dispatch ensures dependable windows and communication.</p>
+            <div class="badge-row"><span class="pill">Farms</span><span class="pill">Logging</span><span class="pill">Construction</span><span class="pill">Fleets</span></div>
+          </div>
+          <div class="card">
+            <h3>Why DeFord’s</h3>
+            <p>Since 1937 we’ve focused on doing the basics right—show up on time, handle product cleanly, and support customers like neighbors.</p>
+            <div class="kpis">
+              <div class="kpi"><div class="label">Founded</div><div class="value">1937</div></div>
+              <div class="kpi"><div class="label">Counties</div><div class="value">6</div></div>
+              <div class="kpi"><div class="label">Services</div><div class="value">4+</div></div>
+              <div class="kpi"><div class="label">Support</div><div class="value">Local</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id=\"counties\" class=\"section\" style=\"background:#f8fafc\">
+      <div class=\"container\">
+        <h2>Service Area</h2>
+        <div class=\"tabs\">
+          <div class=\"tab-list\">
+            <button class=\"tab-btn\">St. Johns County</button>
+            <button class=\"tab-btn\">Putnam County</button>
+            <button class=\"tab-btn\">Clay County</button>
+            <button class=\"tab-btn\">Flagler County</button>
+            <button class=\"tab-btn\">South Duval County</button>
+            <button class=\"tab-btn\">North Volusia County</button>
+          </div>
+          <div class=\"tab-panel\">
+            <p><strong>St. Johns County:</strong> Bulk fuel, DEF, oils & greases, and waste‑oil pickup with dependable windows. Same‑ or next‑day options. <a href=\"#contact\">Request a quote</a>.</p>
+          </div>
+          <div class=\"tab-panel\">
+            <p><strong>Putnam County:</strong> Bulk fuel, DEF, oils & greases, and waste‑oil pickup with dependable windows. Same‑ or next‑day options. <a href=\"#contact\">Request a quote</a>.</p>
+          </div>
+          <div class=\"tab-panel\">
+            <p><strong>Clay County:</strong> Bulk fuel, DEF, oils & greases, and waste‑oil pickup with dependable windows. Same‑ or next‑day options. <a href=\"#contact\">Request a quote</a>.</p>
+          </div>
+          <div class=\"tab-panel\">
+            <p><strong>Flagler County:</strong> Bulk fuel, DEF, oils & greases, and waste‑oil pickup with dependable windows. Same‑ or next‑day options. <a href=\"#contact\">Request a quote</a>.</p>
+          </div>
+          <div class=\"tab-panel\">
+            <p><strong>South Duval County:</strong> Bulk fuel, DEF, oils & greases, and waste‑oil pickup with dependable windows. Same‑ or next‑day options. <a href=\"#contact\">Request a quote</a>.</p>
+          </div>
+          <div class=\"tab-panel\">
+            <p><strong>North Volusia County:</strong> Bulk fuel, DEF, oils & greases, and waste‑oil pickup with dependable windows. Same‑ or next‑day options. <a href=\"#contact\">Request a quote</a>.</p>
+          </div>
+        </div>
+        <p class=\"small\" style=\"margin-top:10px\">Tip: You can also create dedicated county pages in Webnode and link each tab to a full page.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Bulk Fuel FAQ</h2>
+        <div class="grid cols-2">
+          <div class="faq-item"><div class="faq-q">What fuels do you deliver? <span>+</span></div><div class="faq-a">On‑road diesel, off‑road diesel and gasoline.</div></div>
+          <div class="faq-item"><div class="faq-q">How fast can you deliver? <span>+</span></div><div class="faq-a">Same‑ or next‑day is common—contact us to confirm today’s windows.</div></div>
+          <div class="faq-item"><div class="faq-q">Do you serve my county? <span>+</span></div><div class="faq-a">Yes: St. Johns, Putnam, Clay, Flagler, South Duval and North Volusia.</div></div>
+          
+          <div class="faq-item"><div class="faq-q">How do you prevent contamination? <span>+</span></div><div class="faq-a">Dedicated equipment and trained drivers.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" style="background:#f8fafc">
+      <div class="container">
+        <h2>About DeFord’s Fuel & Oil</h2>
+        <p>We’ve supported Northeast Florida’s farms, loggers, construction crews and fleets for generations. Our team delivers <strong>diesel, gasoline, bulk DEF</strong> and a full range of <strong>oils & greases</strong>—plus <strong>waste‑oil collection</strong>. Customers count on us for on‑time windows, clean handling and help matching product specs to equipment and conditions.</p>
+        <div class="notice">Family‑run since 1937 • Local dispatch • Dependable delivery windows</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Request a Quote</h2>
+        <div class="contact-block">
+          <span class="pill">☎ 904‑829‑2251</span>
+          <a class="pill" href="mailto:kdeford@outlook.com">✉ kdeford@outlook.com</a>
+          <span class="pill">St. Augustine, FL</span>
+          <span class="pill">St. Johns · Putnam · Clay · Flagler · South Duval · North Volusia</span>
+        </div>
+        <form onsubmit="event.preventDefault(); alert('Thanks! We\'ll get back to you shortly.');" style="margin-top:16px" aria-label="Quote form">
+          <div class="grid cols-2">
+            <div class="card">
+              <label>Full Name<br><input required type="text" style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px"></label>
+            </div>
+            <div class="card">
+              <label>Company<br><input type="text" style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px"></label>
+            </div>
+            <div class="card">
+              <label>Phone<br><input required type="tel" style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px"></label>
+            </div>
+            <div class="card">
+              <label>Email<br><input required type="email" style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px"></label>
+            </div>
+            <div class="card">
+              <label>Service Needed<br>
+                <select style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px">
+                  <option>Bulk Fuel</option>
+                  <option>DEF</option>
+                  <option>Oils & Greases</option>
+                  <option>Waste‑Oil Pickup</option>
+                </select>
+              </label>
+            </div>
+            <div class="card">
+              <label>Location / County<br>
+                <select style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px">
+                  <option>St. Johns</option>
+                  <option>Putnam</option>
+                  <option>Clay</option>
+                  <option>Flagler</option>
+                  <option>South Duval</option>
+                  <option>North Volusia</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          
+          <div class="card" style="margin-top:12px">
+            <label>Notes<br><textarea rows="4" style="width:100%;padding:10px;border:1px solid #e2e8f0;border-radius:10px"></textarea></label>
+          </div>
+          <div class="small" style="margin:10px 2px">Check to confirm you’re human: <input type="checkbox" required> 3 + 4 = <input type="text" required pattern="7" title="Please enter 7" style="width:60px;padding:6px;border:1px solid #e2e8f0;border-radius:8px"></div>
+          <button class="btn primary" style="margin-top:10px">Send Request</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <strong>DeFord’s Fuel & Oil Inc.</strong><br>
+        8 Hartshorn Street, St. Augustine, FL 32084<br>
+        <a href="tel:+19048292251" style="color:#fff">904‑829‑2251</a> · <a href="mailto:kdeford@outlook.com" style="color:#fff">kdeford@outlook.com</a>
+        <div class="small" style="margin-top:8px">Serving St. Johns, Putnam, Clay, Flagler, South Duval & North Volusia</div>
+      </div>
+      <div>
+        <div class="small">Navigation</div>
+        <div><a href="#services" style="color:#cbd5e1">Services</a></div>
+        <div><a href="#counties" style="color:#cbd5e1">Service Area</a></div>
+        <div><a href="#about" style="color:#cbd5e1">About</a></div>
+        <div><a href="#contact" style="color:#cbd5e1">Contact</a></div>
+      </div>
+      <div>
+        <div class="small">Hours</div>
+        <div class="small">Mon–Fri: 7:30a–4:30p (typical)</div>
+        <div class="small">Closed Sat–Sun</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Structured Data: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"DeFord's Fuel & Oil Inc.",
+    "url":"https://defordsfuel.com/",
+    "image":"https://defordsfuel.com/assets/hero.jpg",
+    "telephone":"+1-904-829-2251",
+    "email":"kdeford@outlook.com",
+    "address":{"@type":"PostalAddress","streetAddress":"8 Hartshorn Street","addressLocality":"St. Augustine","addressRegion":"FL","postalCode":"32084","addressCountry":"US"},
+    "areaServed":[{"@type":"AdministrativeArea","name":"St. Johns County"},{"@type":"AdministrativeArea","name":"Putnam County"},{"@type":"AdministrativeArea","name":"Clay County"},{"@type":"AdministrativeArea","name":"Flagler County"},{"@type":"AdministrativeArea","name":"Duval County (South)"},{"@type":"AdministrativeArea","name":"Volusia County (North)"}],
+    "foundingDate":"1937",
+    "description":"Family-run bulk fuel, DEF, oils & greases, and waste-oil collection serving farms, logging and construction across Northeast Florida."
+  }
+  </script>
+
+  <!-- Structured Data: Bulk Fuel FAQ (example) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"What fuels do you deliver?","acceptedAnswer":{"@type":"Answer","text":"On-road diesel, off-road diesel and gasoline."}},
+      {"@type":"Question","name":"How fast can you deliver?","acceptedAnswer":{"@type":"Answer","text":"Same- or next-day is common; contact us to confirm today’s windows."}},
+      {"@type":"Question","name":"Do you serve my county?","acceptedAnswer":{"@type":"Answer","text":"Yes—St. Johns, Putnam, Clay, Flagler, South Duval and North Volusia."}},
+      {"@type":"Question","name":"How do you prevent contamination?","acceptedAnswer":{"@type":"Answer","text":"Dedicated equipment and trained drivers."}}
+    ]
+  }
+  </script>
+
+  <script>
+    // Simple FAQ toggles
+    document.querySelectorAll('.faq-q').forEach(q=>{
+      q.addEventListener('click',()=>{
+        const a=q.parentElement.querySelector('.faq-a');
+        a.style.display=a.style.display==='block'?'none':'block';
+        q.querySelector('span').textContent=a.style.display==='block'?'-':'+';
+      });
+    });
+  </script>
+  <script>
+    // Simple tabs
+    document.querySelectorAll('.tabs').forEach(function(tabs){
+      const btns = tabs.querySelectorAll('.tab-btn');
+      const panels = tabs.querySelectorAll('.tab-panel');
+      function activate(i){
+        btns.forEach((b,idx)=>b.classList.toggle('active', idx===i));
+        panels.forEach((p,idx)=>p.classList.toggle('active', idx===i));
+      }
+      btns.forEach((b,i)=>b.addEventListener('click', ()=>activate(i)));
+      activate(0);
+    });
+  </script>
+</body>
+</html>
 # defords-site
